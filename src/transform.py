@@ -3,4 +3,4 @@ import random
 
 def generate_message(nome):
     mensagem = random.choice(mensagens)
-    return f"{nome}, {mensagem}"
+    return f"-- {nome}, {mensagem}"

@@ -41,9 +41,11 @@ def run():
 
     # =========================
     # SALVAR CSV FINAL
-        # =========================
+    # =========================
     df_saida = pd.DataFrame(resultados)
     df_saida.to_csv("output.csv", index=False)
+
+    print("\nGerando arquivo output.csv\n..\n....\n..\n....")
 
     print("\nArquivo output.csv gerado com sucesso!")
 
@@ -58,3 +60,7 @@ def run():
     print("\n=== RESULTADO FINAL DO BANCO ===")
     for user in fake_db.values():
         print(user)
+
+    print("\n========= NOTA =============")
+
+    print("Acesse o arquivo output.csv para visualizar\nas mensagens geradas na execução do programa.", end="")
