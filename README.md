@@ -36,10 +36,20 @@ CSV → Extract → Transform → Load → API Fake
 ## 📂 Estrutura do projeto
 
 ```bash
-.
-├── input.csv
-├── output.csv
-└── main.py
+projeto_etl/
+├── src/
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   ├── api_cliente.py
+│   ├── ai_fake_mensagem.py
+│   ├── fake_banco.py
+│   ├── input.csv
+│   ├── output.csv
+│   └── main.py
+│
+├── descricao.txt
+└── README.md
 ```
 
 ---
@@ -49,8 +59,8 @@ CSV → Extract → Transform → Load → API Fake
 ### 1. Clonar repositório
 
 ```bash
-git clone https://github.com/seu-usuario/etl-python-estudo.git
-cd etl-python-estudo
+git clone https://github.com/MinionAJ/projeto_etl.git
+cd projeto_etl
 ```
 
 ---
@@ -79,6 +89,11 @@ id
 2
 3
 4
+5
+6
+12
+17
+22
 ```
 
 ---
@@ -87,8 +102,13 @@ id
 
 ```csv
 id,nome,mensagem
-1,Ana,"Ana, Temos novidades incríveis para você 🎉"
-2,Bruno,"Bruno, Aproveite nossas ofertas exclusivas hoje!"
+1,Ana,"-- Ana, seu futuro merece segurança — comece a investir com quem entende do assunto."
+2,Bruno,"-- Bruno, temos uma surpresa esperando por você."
+3,Carlos,"-- Carlos, segurança, rentabilidade e praticidade em um só lugar."
+4,Daniela,"-- Daniela, olá! Temos novidades incríveis para você."
+5,Marcos,"-- Marcos, sentimos sua falta! Volte e confira o que preparamos."
+6,Fernanda,"-- Fernanda, invista hoje e conquiste mais liberdade financeira amanhã."
+12,Juliana,"-- Juliana, diversifique seus investimentos e aumente suas oportunidades de lucro."
 ```
 
 ---
@@ -134,7 +154,7 @@ Este projeto foi desenvolvido com foco em aprendizado prático de:
 
 ## 👨‍💻 Autor
 
-Seu Nome
-https://linkedin.com
-https://github.com
+CORRÊA, A.J.C.
+[https://linkedin.com](https://www.linkedin.com/in/adilsonjosecamposcorrea87/)
+[https://github.com](https://github.com/MinionAJ)
 
