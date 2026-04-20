@@ -1,0 +1,16 @@
+
+****************************************************
+Exercício pipeline python ETL
+****************************************************
+	criado 18/04/2026
+	Hora: 14:21
+
+* Extrai dados de um arquico CSV;
+* Busca no banco de dados as referências de busca;
+* Faz as Transformações necessárias,
+	simulando uma IA FAKE que gera
+	mensagens aleatórias;
+* Carrega as alteraçãoes
+	- trata erros de busca;
+	- mostra na tela para o usuário;
+	- salva um novo arquico CSV com as alterações.
