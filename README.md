@@ -155,6 +155,7 @@ Este projeto foi desenvolvido com foco em aprendizado prático de:
 ## 👨‍💻 Autor
 
 CORRÊA, A.J.C.
+
 [https://linkedin.com](https://www.linkedin.com/in/adilsonjosecamposcorrea87/)
 [https://github.com](https://github.com/MinionAJ)
 
