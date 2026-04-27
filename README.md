@@ -59,7 +59,7 @@ projeto_etl/
 ### 1. Clonar repositório
 
 ```bash
-git clone https://github.com/MinionAJ/projeto_etl.git
+git clone <url-do-repositorio>
 cd projeto_etl
 ```
 
@@ -155,6 +155,7 @@ Este projeto foi desenvolvido com foco em aprendizado prático de:
 ## 👨‍💻 Autor
 
 CORRÊA, A.J.C.
+
 [https://linkedin.com](https://www.linkedin.com/in/adilsonjosecamposcorrea87/)
 [https://github.com](https://github.com/MinionAJ)
 

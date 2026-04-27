@@ -63,4 +63,4 @@ def run():
 
     print("\n========= NOTA =============")
 
-    print("Acesse o arquivo output.csv para visualizar\nas mensagens geradas na execução do programa.", end="")
+    print("Acesse o arquivo output.csv para visualizar\nas mensagens geradas na execução do programa.")
